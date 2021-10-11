@@ -1,0 +1,87 @@
+body,
+html {
+width: 100%;
+height: 100%; 
+  /*this makes sure that the body covers 100%*/
+font-family: 'Comic Sans MS', sans-serif;
+
+background: url(gmmm.PNG) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz--background-size: cover;
+-o--background-size: cover;
+background-size: cover;
+}
+
+hr{
+width: 50px;
+border-color: #FFFF66;
+border-width: 3px; 
+}
+
+.btn-info{
+/*transform: scale(1.5);*/
+background-color: #FFFF66;
+border-color: #FFFF66;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
+border-radius: 50px;
+padding: 1rem;
+font-size: 1.2rem;
+
+}
+
+.btn-info:hover{
+cursor: pointer;
+background-color: yellow;
+border-color: yellow;
+/*animation properties*/
+animation: bounce;
+animation-delay: 0s;
+animation-duration: 2s;
+}
+
+.btn-info:focus{
+background-color: yellow;
+transition: 3ms;
+transform: scale(1.1);
+border-color: yellow;
+cursor: wait;
+
+}
+
+.container{
+
+
+/*display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height: 100vh;*/
+
+/*This means view port height - 
+the height from the top to the bottom of the viewing screen
+50vph will be half of this */
+}
+
+p{
+font-weight: 700;
+font-size: 3rem;
+/*text-align: center;*/
+color: white;
+/*text-shadow: 
+4px 4px 0 black,
+4px -4px 0 black,
+0px -4px 0 black,
+-4px -4px 0 black,
+4px 0px 0 black,
+0px 4px 0 black,
+-4px 0px 0 black,
+-4px 4px 0 black;*/
+-webkit-text-stroke-width: 3px;
+-webkit-text-stroke-color: black;
+}
+
+.buffer{
+
+height: 5rem;
+}
